@@ -1,0 +1,11 @@
+* {
+    margin: 10px;
+
+}
+
+.test {
+    color: purple;
+    font-weight: 600;
+    cursor: url('https://icons8.com/icon/71212/cursor'), auto
+    /* cursor: url('https://icons8.com/icon/kWe4yIGgEM7A/cursor') */
+}
