@@ -66,23 +66,25 @@ nav>div>img {
     width: 100%;
 }
 
-.services-container{
+.services-container {
     padding: 60px 30px;
     background-image: url('/images/background.png'), linear-gradient(45deg, #414141, #000);
 }
-.services-container h2{
+
+.services-container h2 {
     text-align: center;
     color: white;
     font-size: 50px;
 }
-.box-container{
+
+.box-container {
     display: flex;
     gap: 72px;
     justify-content: space-around;
     padding: 10px 60px;
 }
 
-.box{
+.box {
     background-color: rgb(26, 25, 25);
     padding: 20px;
     border-radius: 8px;
@@ -90,21 +92,23 @@ nav>div>img {
     color: white;
 }
 
-.box img{
+.box img {
     width: 50%;
 }
 
-.btn-gray{
+.btn-gray {
     background-color: gray;
+    color: white;
     padding: 10px;
     border-radius: 5px;
     border: none;
 }
 
-.footer{
+.footer {
     background-color: #000;
 }
-.footer-section{
+
+.footer-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,23 +117,23 @@ nav>div>img {
     color: white;
 }
 
-.footer-section > div > img{
+.footer-section>div>img {
     height: 40px;
 }
 
-.footer-section > div > ul{
+.footer-section>div>ul {
     margin: 0px;
     padding: 0px;
 }
 
-.footer-section > div > ul > li{
+.footer-section>div>ul>li {
     list-style: none;
     padding-left: 5px;
     margin-top: 10px;
 }
 
 
-.copyright{
+.copyright {
     background-color: #000;
     color: white;
     text-align: center;
