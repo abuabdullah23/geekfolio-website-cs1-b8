@@ -18,14 +18,29 @@ nav>div>img {
     height: 32px;
 }
 
-.banner {
-    background-image: url('/images/background.png'), linear-gradient(45deg, #000, #727272);
+.banner-container {
+    /* background-image: url('/images/background.png'), linear-gradient(45deg, #000, #727272); */
+    position: relative;
     color: white;
     height: 100vh;
     display: flex;
     gap: 25px;
     justify-content: space-around;
     align-items: center;
+}
+
+.banner-bg{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(45deg, #000, #333333);
+}
+
+.banner-content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
 }
 
 .banner-img img {
